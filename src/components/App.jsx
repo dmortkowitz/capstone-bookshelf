@@ -1,7 +1,6 @@
 import React from 'react';
-//import PropTypes from 'prop-types';
 import { Switch, Route } from 'react-router-dom';
-import Mainpage from './Mainpage';
+import Bookshelf from './Bookshelf';
 
 /*
   import { Link } from 'react-router-dom';
@@ -17,13 +16,12 @@ function App(){
         font-family: Helvetica;
       `}</style>
       {<Switch>
-        <Route exact path='/' component={Mainpage} />
+        <Route exact path='/' component={Bookshelf} />
       </Switch> }
     </div>
   );
 }
 
-//App.propTypes = {
-//};
+
 
 export default App;
