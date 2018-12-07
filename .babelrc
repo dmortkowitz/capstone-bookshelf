@@ -9,6 +9,6 @@
   }
 }
 
-mkdir __tests__
+/* mkdir __tests__
 mkdir __tests__/reducers
-mkdir src/reducers
+mkdir src/reducers */
