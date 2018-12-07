@@ -29,7 +29,7 @@ function BookshelfDetails(){
     <div>
       <hr/>
       {masterBookshelfDetails.map((book, index) =>
-        <BooKDetails author={book.author}
+        <BookDetails author={book.author}
           title={book.title}
           description={book.description}
           pages={book.pages}

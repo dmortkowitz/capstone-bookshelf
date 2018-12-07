@@ -17,7 +17,7 @@ function Bookshelf(){
       <div>
         <div className='container'>
           <div className='jumbotron' style={mainshelf}>
-            <Link to='/bookshelfdetails'><h1>Bookshelf</h1></Link>
+            <Link to='/bookshelf'><h1>Bookshelf</h1></Link>
           </div>
         </div>
       </div>
