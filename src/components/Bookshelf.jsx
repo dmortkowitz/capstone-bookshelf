@@ -1,7 +1,5 @@
 import React from 'react';
 import bootstrap from '../../node_modules/bootstrap/dist/css/bootstrap.css';
-import BookDetails from './BookDetails';
-import BookshelfDetails from './BookshelfDetails';
 import { Link } from 'react-router-dom';
 
 

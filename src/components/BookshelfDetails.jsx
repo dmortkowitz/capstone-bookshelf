@@ -1,5 +1,6 @@
 import React from 'react';
 import BookDetails from './BookDetails';
+import { Link } from 'react-router-dom';
 
 
 
@@ -35,6 +36,9 @@ function BookshelfDetails(){
           pages={book.pages}
           key={index}/>
       )}
+      <div>
+        <Link to='/'>Home</Link>
+      </div>
     </div>
   );
 }

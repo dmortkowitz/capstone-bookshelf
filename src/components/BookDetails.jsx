@@ -5,7 +5,8 @@ function BookDetails(props){
   return (
     <div>
       <h3>{props.author} - {props.title}</h3>
-      <p><em>{props.description}</em> - {props.pages}</p>
+      <p><em>{props.description}</em></p>
+      <p>{props.pages} pages.</p>
       <hr/>
     </div>
   );

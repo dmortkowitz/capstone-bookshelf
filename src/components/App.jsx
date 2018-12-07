@@ -19,9 +19,9 @@ function App(){
 
       {
         <Switch>
-        <Route exact path='/' component={Bookshelf} />
-        <Route exact path='/bookshelf' component={BookshelfDetails} />
-      </Switch> }
+          <Route exact path='/' component={Bookshelf} />
+          <Route exact path='/bookshelf' component={BookshelfDetails} />
+        </Switch> }
     </div>
   );
 }
