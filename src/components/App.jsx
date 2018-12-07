@@ -16,7 +16,6 @@ function App(){
       <style jsx>{`
         font-family: Helvetica;
       `}</style>
-      bookshelf-cap-proj
       {<Switch>
         <Route exact path='/' component={Mainpage} />
       </Switch> }
