@@ -8,6 +8,9 @@ function BookDetails(props){
       <style jsx>{`
         #shelfList {
         }
+        #contentHide {
+          display: none;
+        }
               `}
       </style>
       <div>
@@ -19,12 +22,12 @@ function BookDetails(props){
               </button>
             </div>
           </div>
-            <p><em>{props.description}</em></p>
-            <p>This book is {props.pages} pages.</p>
-            <hr/>
-          </div>
+          <span id='contentHide'><p><em>{props.description}</em></p>
+          <p>This book is {props.pages} pages.</p></span>
+          <hr/>
         </div>
       </div>
+    </div>
 
   );
 }
