@@ -4,10 +4,18 @@ import PropTypes from 'prop-types';
 function BookDetails(props){
   return (
     <div>
-      <h3>{props.author} - {props.title}</h3>
-      <p><em>{props.description}</em></p>
-      <p>{props.pages} pages.</p>
-      <hr/>
+      <style jsx>{`
+        #shelfList {
+          display: none;
+        }
+              `}
+      </style>
+      <div id='shelfList'>
+        <h3>{props.author} - {props.title}</h3>
+        <p><em>{props.description}</em></p>
+        <p>{props.pages} pages.</p>
+        <hr/>
+      </div>
     </div>
   );
 }

@@ -26,20 +26,19 @@ const masterBookshelfDetails = [
 ];
 
 function BookshelfDetails(){
+
   return (
-    <div>
-      <hr/>
-      {masterBookshelfDetails.map((book, index) =>
-        <BookDetails author={book.author}
-          title={book.title}
-          description={book.description}
-          pages={book.pages}
-          key={index}/>
-      )}
+
       <div>
-        <Link to='/'>Home</Link>
+        <hr/>
+        {masterBookshelfDetails.map((book, index) =>
+          <BookDetails author={book.author}
+            title={book.title}
+            description={book.description}
+            pages={book.pages}
+            key={index}/>
+        )}
       </div>
-    </div>
   );
 }
 
