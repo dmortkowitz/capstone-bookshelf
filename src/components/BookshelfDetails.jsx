@@ -29,16 +29,16 @@ function BookshelfDetails(){
 
   return (
 
-      <div>
-        <hr/>
-        {masterBookshelfDetails.map((book, index) =>
-          <BookDetails author={book.author}
-            title={book.title}
-            description={book.description}
-            pages={book.pages}
-            key={index}/>
-        )}
-      </div>
+    <div>
+      <hr/>
+      {masterBookshelfDetails.map((book, index) =>
+        <BookDetails author={book.author}
+          title={book.title}
+          description={book.description}
+          pages={book.pages}
+          key={index}/>
+      )}
+    </div>
   );
 }
 

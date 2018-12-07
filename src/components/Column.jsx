@@ -1,5 +1,6 @@
 import React from 'react';
 import BookshelfDetails from './BookshelfDetails';
+import BookDetails from './BookDetails';
 
 
 function Column(){
