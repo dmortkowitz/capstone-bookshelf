@@ -20,4 +20,4 @@ BookDetails.propTypes = {
 };
 
 
-export default BooKDetails;
+export default BookDetails;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Bookshelf from './Bookshelf';
+import BookshelfDetails from './BookshelfDetails';
 
 /*
   import { Link } from 'react-router-dom';
@@ -15,8 +16,11 @@ function App(){
       <style jsx>{`
         font-family: Helvetica;
       `}</style>
-      {<Switch>
+
+      {
+        <Switch>
         <Route exact path='/' component={Bookshelf} />
+        <Route exact path='/bookshelf' component={BookshelfDetails} />
       </Switch> }
     </div>
   );
