@@ -22,12 +22,12 @@ function BookDetails(props){
               </button>
             </div>
           </div>
-          <span id='contentHide'><p><em>{props.description}</em></p>
-          <p>This book is {props.pages} pages.</p></span>
-          <hr/>
+            <span id='contentHide'><p><em>{props.description}</em></p>
+            <p>This book is {props.pages} pages.</p></span>
+            <hr/>
+          </div>
         </div>
       </div>
-    </div>
 
   );
 }
