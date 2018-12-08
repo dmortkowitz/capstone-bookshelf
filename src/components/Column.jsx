@@ -15,7 +15,7 @@ function Column(){
     <div>
       <div style={caroLayout}>
 
-          <BookshelfDetails />
+        <BookshelfDetails />
 
       </div>
     </div>
