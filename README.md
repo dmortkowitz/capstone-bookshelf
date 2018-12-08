@@ -11,7 +11,7 @@ _by David Mortkowitz_
 * User should be able to navigate the front page of a bookshelf layout.
 * Multiple components used, separating logic out into its most basic parts, described in image below:
 
-![alt site-sketch](./images/bookshelf-cap-image.jpeg)
+![alt site-sketch](./images/bookshelf-cap-image.jpg)
 
 
 ## Installation and Usage
