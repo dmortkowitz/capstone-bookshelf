@@ -14,9 +14,9 @@ function Column(){
   return (
     <div>
       <div style={caroLayout}>
-        <div className='card'>
-          <BookshelfDetails />
-        </div>
+
+        <BookshelfDetails />
+
       </div>
     </div>
   );
